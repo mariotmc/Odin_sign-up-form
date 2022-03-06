@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Odin_sign-up-form/static/css/main.d871b56d.css",
+    "main.js": "/Odin_sign-up-form/static/js/main.3fb2bb26.js",
+    "static/media/Norse-Bold.otf": "/Odin_sign-up-form/static/media/Norse-Bold.5efe60ef5042faec1224.otf",
+    "static/media/logo.png": "/Odin_sign-up-form/static/media/logo.4f0f495b2f256748749f.png",
+    "index.html": "/Odin_sign-up-form/index.html",
+    "main.d871b56d.css.map": "/Odin_sign-up-form/static/css/main.d871b56d.css.map",
+    "main.3fb2bb26.js.map": "/Odin_sign-up-form/static/js/main.3fb2bb26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d871b56d.css",
+    "static/js/main.3fb2bb26.js"
+  ]
+}
