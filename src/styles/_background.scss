@@ -1,0 +1,31 @@
+@use "functions" as *;
+@use "variables" as *;
+
+.background-container {
+  width: 37%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-size: cover;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: rem(140);
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: rem(200);
+
+    .logo-image {
+      width: rem(90);
+      height: rem(120);
+      margin: 0 rem(10) 0 rem(120);
+    }
+
+    .logo-title {
+      font-family: var(--font-logo);
+      font-size: rem(73);
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+}

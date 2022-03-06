@@ -1,0 +1,17 @@
+@use "functions" as *;
+@use "variables" as *;
+
+.content-container {
+  width: 63%;
+
+  .info,
+  .sign-up {
+    height: 35%;
+  }
+
+  .form {
+    height: 30%;
+    background-color: var(--bg-light);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1), 0px -5px 10px rgba(0, 0, 0, 0.1);
+  }
+}

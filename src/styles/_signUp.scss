@@ -1,0 +1,32 @@
+@use "functions" as *;
+@use "variables" as *;
+
+.sign-up {
+  padding: rem(35) 0 0 rem(50);
+
+  .sign-up-button {
+    width: rem(235);
+    height: rem(50);
+    margin-bottom: rem(40);
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--green);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .login-cta {
+    font-weight: 500;
+
+    span {
+      color: var(--green);
+      font-weight: 700;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

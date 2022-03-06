@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("./fonts/Norse-Bold.otf") format("opentype");
+}
+
+:root {
+  --font-main: "Poppins", sans-serif;
+  --font-logo: "Norse-Bold", sans-serif;
+  --bg-dark: #f7f8f9;
+  --bg-light: #fefefe;
+  --black: #3b3b3b;
+  --green: #596d48;
+  --blue: #3256cf;
+  --red: #be2129;
+  --gray: #e5e7eb;
+}

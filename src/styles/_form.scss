@@ -1,0 +1,54 @@
+@use "functions" as *;
+@use "variables" as *;
+
+.form {
+  .form-heading {
+    padding: rem(25) rem(260) rem(25) rem(50);
+    font-weight: 700;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: rem(25) rem(70);
+    padding: 0 rem(260) 0 rem(50);
+
+    .input-container {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-size: rem(10);
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: rem(5);
+      }
+
+      input {
+        width: rem(262);
+        height: rem(32);
+        padding: rem(10);
+        font-size: rem(14);
+        border: 2px solid var(--gray);
+        border-radius: 5px;
+        outline: none;
+
+        &:focus {
+          border-color: var(--blue);
+          box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+        }
+      }
+
+      .error-message {
+        margin: rem(5) 0 0 rem(5);
+        font-size: rem(12);
+        color: var(--red);
+        letter-spacing: 0px;
+      }
+    }
+  }
+}
+
+.invalid {
+  border-color: var(--red) !important;
+}
